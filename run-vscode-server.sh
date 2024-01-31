@@ -40,8 +40,8 @@ fi
 
 # unzip
 if [ ! -f "$vscodeCliPath/$vscodeCliFile" ]; then
-    sudo tar zxf $vscodeCliBinFile -C $vscodeCliPath
-    sudo chmod +x $vscodeCliPath/$vscodeCliFile
+    tar zxf $vscodeCliBinFile -C $vscodeCliPath
+    chmod +x $vscodeCliPath/$vscodeCliFile
 fi
 
 # prune tunnel
