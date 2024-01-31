@@ -1,6 +1,6 @@
 #!/bin/sh
-vscodeCliBinFile="vscode_cli_alpine_x64_cli.tar.gz"
-vscodeCliFile="code-insiders"
+vscodeCliBinFile="vscode_cli.tar.gz"
+vscodeCliFile="code"
 vscodeCliPath="/usr/bin"
 vscodeLogFile="vscode-server.log"
 tunnelName=$1
